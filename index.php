@@ -1,5 +1,5 @@
 
-
+<?php include("admin/includes/config.php"); ?>
 
 <?php include("includes/header.php"); ?>
 
