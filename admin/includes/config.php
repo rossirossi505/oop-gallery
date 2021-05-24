@@ -11,12 +11,8 @@ $cleardb_db = substr($cleardb_url["path"],1);
 $active_group = 'default';
 $query_builder = TRUE;
 // Connect to DB
-$conn = new mysqli($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
-if($conn){
-    echo "this is connected" ;
-}else{
-  echo "this is not connected" ;
-}
+//$conn = new mysqli($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+
 
 
  ?>

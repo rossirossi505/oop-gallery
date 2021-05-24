@@ -1,7 +1,16 @@
 
 <?php //include("admin/includes/init2.php"); ?>
 
-<?php include("includes/header.php"); ?>
+<?php include("includes/header.php"); 
+
+if($database->connection){
+  echo "this is connected" ;
+}else{
+echo "this is not connected" ;
+}
+
+
+?>
 
 
 
