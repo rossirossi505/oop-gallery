@@ -1,4 +1,4 @@
-<?php echo "this is index"; ?>
+
 
 
 <?php include("includes/header.php"); ?>
