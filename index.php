@@ -1,5 +1,5 @@
 
-<?php include("admin/includes/init2.php"); ?>
+<?php //include("admin/includes/init2.php"); ?>
 
 <?php include("includes/header.php"); ?>
 
