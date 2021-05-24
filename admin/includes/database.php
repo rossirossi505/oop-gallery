@@ -22,7 +22,7 @@ class Database {
 
 	// $this->connection = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 
-	$this->connection = new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+	$this->connection = new mysqli($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
  
 
