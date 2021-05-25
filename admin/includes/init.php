@@ -1,6 +1,6 @@
 <?php 
 
-
+/*
 
 defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
 
@@ -22,7 +22,7 @@ require_once(INCLUDES_PATH.DS."session.php");
 require_once(INCLUDES_PATH.DS."paginate.php");
 
 
-/*
+*/
 require_once("config.php");
 
 
@@ -34,5 +34,5 @@ require_once("comment.php");
 require_once("session.php");
 require_once("paginate.php");
 
-*/
+
  ?>
