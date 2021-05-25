@@ -2,13 +2,6 @@
 
 
 <?php include("includes/header.php"); ?>
-<?php include("admin/includes/config.php"); ?>
-<?php include("admin/includes/database.php"); ?>
-<?php include("admin/includes/db_object.php"); ?>
-<?php include("admin/includes/user.php"); ?>
-<?php include("admin/includes/photo.php"); ?>
-<?php include("admin/includes/paginate.php"); ?>
-<?php include("admin/includes/config.php"); ?>
 
 
 
