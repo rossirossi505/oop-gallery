@@ -12,6 +12,7 @@ defined('INCLUDES_PATH') ? null : define('INCLUDES_PATH', SITE_ROOT.DS.'admin'.D
 defined('IMAGES_PATH') ? null : define('IMAGES_PATH', SITE_ROOT.DS.'admin'.DS.'images');
  
 //require_once(INCLUDES_PATH.DS."functions.php");
+ob_start();
 require_once(INCLUDES_PATH.DS."config.php");
 require_once(INCLUDES_PATH.DS."database.php");
 require_once(INCLUDES_PATH.DS."db_object.php");
