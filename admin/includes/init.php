@@ -13,13 +13,15 @@ defined('IMAGES_PATH') ? null : define('IMAGES_PATH', SITE_ROOT.DS.'admin'.DS.'i
  
 //require_once(INCLUDES_PATH.DS."functions.php");
 ob_start();
+require_once(INCLUDES_PATH.DS."session.php");
 require_once(INCLUDES_PATH.DS."config.php");
+
 require_once(INCLUDES_PATH.DS."database.php");
 require_once(INCLUDES_PATH.DS."db_object.php");
 require_once(INCLUDES_PATH.DS."user.php");
 require_once(INCLUDES_PATH.DS."photo.php");
 require_once(INCLUDES_PATH.DS."comment.php");
-require_once(INCLUDES_PATH.DS."session.php");
+
 require_once(INCLUDES_PATH.DS."paginate.php");
 
 /*
