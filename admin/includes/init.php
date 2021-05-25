@@ -6,7 +6,7 @@ defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
 
 //define('SITE_ROOT', 'C:' . DS . 'XAMPP' . DS . 'htdocs' . DS . 'gallery' );
 
-define('SITE_ROOT', $_SERVER['DOCUMENT_ROOT'] . DS . 'oop-gallery' );
+define('SITE_ROOT', $_SERVER['DOCUMENT_ROOT'] . DS . 'rossirossi505/oop-gallery);
 defined('INCLUDES_PATH') ? null : define('INCLUDES_PATH', SITE_ROOT.DS.'admin'.DS.'includes');
 
 defined('IMAGES_PATH') ? null : define('IMAGES_PATH', SITE_ROOT.DS.'admin'.DS.'images');
